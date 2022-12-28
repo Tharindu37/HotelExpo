@@ -1,0 +1,16 @@
+@use "widgets/flex-manager" as *;
+@use "widgets/colors" as *;
+@use "widgets/font-manager" as *;
+
+footer{
+  height: 100px;
+  background-color: $primary-color;
+  @include flexView(row);
+  justify-content: center;
+}
+h6{
+  margin: 0;
+  padding: 20px;
+  color: $primary-font-color;
+  font-family: $main-font;
+}

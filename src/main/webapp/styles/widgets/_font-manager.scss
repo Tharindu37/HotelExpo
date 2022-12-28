@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+$main-font:'Roboto', sans-serif;
+$logo-font:'Titillium Web', sans-serif;
+$logo-font-size:25px;
+$general-font-sizes:(regular:13px,medium:16px,large:20px);
+$general-font-weight:(regular:400,medium:500,bold:bold);
+@function fontSize($size){
+  @return map-get($general-font-sizes,$size);
+}
+
+@function fontWight($wight){
+  @return map-get($general-font-weight,$wight)
+}

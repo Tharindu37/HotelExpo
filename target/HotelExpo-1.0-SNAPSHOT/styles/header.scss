@@ -1,0 +1,34 @@
+@use "widgets/colors" as *;
+@use "widgets/flex-manager" as *;
+@use "widgets/font-manager" as *;
+.outer-header{
+  @include flexView(row);
+  width: 100%;
+  height: 60px;
+  background-color: $primary-color;
+
+  .left-header,.right-header{
+    flex: 1;
+    padding: 0 20px;
+    height: 100%;
+    @include flexView(row);
+  }
+  .left-header{
+    h2{
+      font-family: $logo-font;
+      font-size: $logo-font-size;
+      font-weight: fontWight(bold);
+      color: $primary-font-color;
+    }
+  }
+  .right-header{
+    justify-content: flex-end;
+    button{
+      background-color: $attract-buttons-color;
+      padding: 8px 15px;
+      color: $primary-font-color;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}

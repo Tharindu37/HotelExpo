@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap");
+.outer-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  background-color: #34495e;
+}
+.outer-header .left-header, .outer-header .right-header {
+  flex: 1;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.outer-header .left-header h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.outer-header .right-header {
+  justify-content: flex-end;
+}
+.outer-header .right-header button {
+  background-color: #e67e22;
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=header.css.map */

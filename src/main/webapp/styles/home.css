@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content-outer {
+  width: 100%;
+  height: 450px;
+  background: url("https://img.freepik.com/free-photo/portrait-beautiful-young-asian-woman-smile-happy-relax-around-swimming-pool-hotel-resort_74190-9164.jpg?w=996&t=st=1671580840~exp=1671581440~hmac=76a38f380184590e7d58a464f676458ba84a0a53ac7738c71cdb36c8d5ec5781") center no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.content-outer .reservation-making-outer {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content-outer .reservation-making-outer .title {
+  width: 95%;
+}
+.content-outer .reservation-making-outer .title h1 {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.content-outer .reservation-making-outer .inner {
+  width: 95%;
+  height: 100%;
+  background-color: rgba(52, 73, 94, 0.5);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.row {
+  margin: 0;
+  width: 100%;
+}
+
+.box {
+  height: 40px;
+}
+
+.search-outer {
+  width: 100%;
+  border: none;
+  padding: 0 10px;
+  height: 100%;
+  background-color: white;
+}
+.search-outer:focus {
+  outline: none;
+}
+
+.date-outer, .special-outer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.date-box {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+}
+.date-box input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: 0 10px;
+}
+.date-box input:focus {
+  outline: none;
+}
+
+.special-input-outer {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+}
+.special-input-outer select {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: 0 10px;
+}
+.special-input-outer select:focus {
+  outline: none;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 100% !important;
+}
+
+.hotels-outer {
+  width: 100%;
+  height: auto;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+
+.image-outer {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=home.css.map */

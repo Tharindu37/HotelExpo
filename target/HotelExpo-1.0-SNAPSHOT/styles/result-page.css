@@ -1,0 +1,83 @@
+.main-outer {
+  width: 100%;
+  height: auto;
+}
+
+.context {
+  height: auto;
+}
+
+.search-wrapper {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #34495e;
+  padding: 20px;
+}
+.search-wrapper .input-outer {
+  margin-top: 20px;
+  height: 40px;
+}
+
+.search-outer {
+  width: 100%;
+  border: none;
+  padding: 0 10px;
+  height: 100%;
+  background-color: white;
+}
+.search-outer:focus {
+  outline: none;
+}
+
+.date-box {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+}
+.date-box input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: 0 10px;
+}
+.date-box input:focus {
+  outline: none;
+}
+
+.special-input-outer {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+}
+.special-input-outer select {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: 0 10px;
+}
+.special-input-outer select:focus {
+  outline: none;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 100% !important;
+}
+
+.date-outer, .special-outer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.filter-wrapper {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #34495e;
+}
+
+/*# sourceMappingURL=result-page.css.map */
